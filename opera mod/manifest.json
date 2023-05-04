@@ -1,0 +1,69 @@
+{
+    "name": "mod.389",
+    "description": "Mod for Opera Gx for personal use",
+    "developer":
+    {
+        "name": "Websleison"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "payload":
+        {
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 329,
+                        "s": 100,
+                        "l": 23
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 260,
+                        "s": 51,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 348,
+                        "s": 72,
+                        "l": 65
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 335,
+                        "s": 41,
+                        "l": 88
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/dark-universe.jpg",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                {
+                    "image": "wallpaper/deep-blue.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#0B000E"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "1.0"
+}
